@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+@media (max-width:766px) {
+    #navbar-big {
+        display: none;
+    }
+
+    #navbar-small {
+        display: block;
+    }
+}
+
+@media (min-width:766px) {
+    #navbar-big {
+        display: block;
+    }
+
+    #navbar-small {
+        display: none;
+    }
+}
+
+.navbar-nav a {
+    display: inline-block;
+}
